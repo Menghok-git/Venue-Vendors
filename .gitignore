@@ -1,0 +1,19 @@
+# dependencies
+node_modules/
+
+# environment (NEVER commit real credentials)
+.env
+.env.local
+.env*.local
+
+# builds
+dist/
+.next/
+out/
+build/
+
+# logs / coverage / os
+*.log
+npm-debug.log*
+coverage/
+.DS_Store
